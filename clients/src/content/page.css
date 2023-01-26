@@ -1,0 +1,215 @@
+.navcon{
+    color: black;
+    font-weight: 600;
+}
+.hr{
+    width: 10vw;
+}
+.hr1{
+    width: 10vw;
+    position: absolute;
+    right: 0;    
+}
+.hrview{
+    display: flex;
+}
+.logo{
+    height: auto;
+    width: 20%;
+}
+.button{
+    background-color: yellow;
+    width: 25%;
+    padding: 5px;
+    height: 35px;
+    margin-left: 3vh;
+}
+.search {
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
+    width: 350px;
+    margin-left: 10px;
+}
+.search input {
+    padding-left: 5px;
+    width: 350px;
+    height: 35px;
+    background: #fcfcfc;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding-right: 32px;
+
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 4px;
+    right: 15px;
+    z-index: 10;
+}
+.box{
+    display: flex;
+}
+@media only screen and (max-width: 700px) {
+    .search input {
+        width: auto; 
+      }
+    .button{
+        margin-left: 0;
+    }
+    .icon{
+        margin-top: 20px;
+    }
+    .selectbar{
+        display: none;
+    }
+    .brand{
+        padding: 0 !important;
+    }
+    .cards{
+       
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .banner{
+        width: 100%;
+        
+    }
+    .footerbutton{
+        margin-left: 0 !important;
+    }
+    .texttblock{
+        bottom: 0 !important;
+        height: auto;
+        top: 10px;
+    }
+}
+
+.account{
+    display: contents;
+}
+.acc1{
+    margin-left: 10px;
+}
+.number{
+    font-weight: 500;
+    color: black;
+}
+.brand{
+    padding-left: 40px;
+    margin-left: 5px;
+    border-style: solid;
+    border-color: #aaa;
+}      
+.images{
+    text-align: center   
+}
+.fearu{
+    float: right;
+}
+.mar{
+    margin-left: 20px;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.price{
+    position: absolute;
+    bottom: 0;
+}
+.imgages{
+    position: relative;
+}
+.texttblock{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.banner{
+    width: 100%;
+    height: auto;
+}
+.titlebanner{
+    color: orange;
+}
+.titlebanner:hover{
+    color: black;
+    background-color: orange;
+}
+.bannercontent{
+    font-weight: 600;
+}
+.bannerbutton{
+    background-color: red;
+    color: white;
+    border: none;
+}
+.cardimage{
+    width: 60%;
+    height: 10  0%;
+    background-color: whitesmoke;
+}
+.productcard{
+    background-color: whitesmoke;
+
+}
+.lastrow{
+    display: flex;
+}
+.svg path{
+    fill: lightseagreen;
+}
+.lascon{
+    padding-left: 20px;
+}
+.footer{
+    background-color: rgb(49, 46, 46);
+    padding: 5%;
+}
+.footerheading{
+    color: white;
+}
+.footercontent{
+    color: grey;
+}
+.footerinputbox{
+    background-color: #4c4c4c;
+    height: 35px;
+    color: #a1a1a1;
+}
+.footerbutton{
+    background-color: #64d89f;
+    height: 35px;
+    color: white;
+    margin-left: 20px;
+}
+.facebook{
+    color: #425a95;
+}
+.twitter{
+    color: #47a1e2;
+    margin-left: 5px;
+}
+.youtube{
+    color: #d34238;
+    margin-left: 5px;
+}
+.inst{
+    color: #7b61c1;
+    margin-left: 5px;
+}
+.wifi{
+    color: #f6c455;
+    margin-left: 5px;
+}
+.mar:hover{
+    background-color: black;
+    color: white;
+}
